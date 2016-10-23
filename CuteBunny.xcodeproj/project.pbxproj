@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D226AE951DA42A190015A74B /* BunnyCloseEyes1.png in Resources */ = {isa = PBXBuildFile; fileRef = D226AE8D1DA42A190015A74B /* BunnyCloseEyes1.png */; };
+		D226AE961DA42A190015A74B /* BunnyCloseEyes2.png in Resources */ = {isa = PBXBuildFile; fileRef = D226AE8E1DA42A190015A74B /* BunnyCloseEyes2.png */; };
+		D226AE971DA42A190015A74B /* BunnyCloseEyes3.png in Resources */ = {isa = PBXBuildFile; fileRef = D226AE8F1DA42A190015A74B /* BunnyCloseEyes3.png */; };
+		D226AE981DA42A190015A74B /* BunnyCloseEyes4.png in Resources */ = {isa = PBXBuildFile; fileRef = D226AE901DA42A190015A74B /* BunnyCloseEyes4.png */; };
+		D226AE991DA42A190015A74B /* BunnyCloseEyes5.png in Resources */ = {isa = PBXBuildFile; fileRef = D226AE911DA42A190015A74B /* BunnyCloseEyes5.png */; };
+		D226AE9A1DA42A190015A74B /* BunnyEat1.png in Resources */ = {isa = PBXBuildFile; fileRef = D226AE921DA42A190015A74B /* BunnyEat1.png */; };
+		D226AE9B1DA42A190015A74B /* BunnyEat2.png in Resources */ = {isa = PBXBuildFile; fileRef = D226AE931DA42A190015A74B /* BunnyEat2.png */; };
+		D226AE9C1DA42A190015A74B /* BunnyEat3.png in Resources */ = {isa = PBXBuildFile; fileRef = D226AE941DA42A190015A74B /* BunnyEat3.png */; };
 		D279EB4F1D8C181C005E9A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279EB4E1D8C181C005E9A35 /* AppDelegate.swift */; };
 		D279EB511D8C181C005E9A35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279EB501D8C181C005E9A35 /* ViewController.swift */; };
 		D279EB541D8C181C005E9A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D279EB521D8C181C005E9A35 /* Main.storyboard */; };
 		D279EB561D8C181C005E9A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D279EB551D8C181C005E9A35 /* Assets.xcassets */; };
 		D279EB591D8C181C005E9A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D279EB571D8C181C005E9A35 /* LaunchScreen.storyboard */; };
+		D279EB721D8C189F005E9A35 /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = D279EB611D8C189F005E9A35 /* Apple.png */; };
+		D279EB731D8C189F005E9A35 /* Basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = D279EB621D8C189F005E9A35 /* Basketball.png */; };
+		D279EB791D8C189F005E9A35 /* BunnyDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = D279EB681D8C189F005E9A35 /* BunnyDefault.png */; };
+		D279EB7C1D8C189F005E9A35 /* BunnyRun1.png in Resources */ = {isa = PBXBuildFile; fileRef = D279EB6B1D8C189F005E9A35 /* BunnyRun1.png */; };
+		D279EB7D1D8C189F005E9A35 /* BunnyRun2.png in Resources */ = {isa = PBXBuildFile; fileRef = D279EB6C1D8C189F005E9A35 /* BunnyRun2.png */; };
+		D279EB7E1D8C189F005E9A35 /* BunnyText.png in Resources */ = {isa = PBXBuildFile; fileRef = D279EB6D1D8C189F005E9A35 /* BunnyText.png */; };
+		D279EB7F1D8C189F005E9A35 /* Carrot1.png in Resources */ = {isa = PBXBuildFile; fileRef = D279EB6E1D8C189F005E9A35 /* Carrot1.png */; };
+		D279EB801D8C189F005E9A35 /* Carrot2.png in Resources */ = {isa = PBXBuildFile; fileRef = D279EB6F1D8C189F005E9A35 /* Carrot2.png */; };
+		D279EB811D8C189F005E9A35 /* Carrot3.png in Resources */ = {isa = PBXBuildFile; fileRef = D279EB701D8C189F005E9A35 /* Carrot3.png */; };
+		D279EB821D8C189F005E9A35 /* Strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = D279EB711D8C189F005E9A35 /* Strawberry.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D226AE8D1DA42A190015A74B /* BunnyCloseEyes1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyCloseEyes1.png; sourceTree = "<group>"; };
+		D226AE8E1DA42A190015A74B /* BunnyCloseEyes2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyCloseEyes2.png; sourceTree = "<group>"; };
+		D226AE8F1DA42A190015A74B /* BunnyCloseEyes3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyCloseEyes3.png; sourceTree = "<group>"; };
+		D226AE901DA42A190015A74B /* BunnyCloseEyes4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyCloseEyes4.png; sourceTree = "<group>"; };
+		D226AE911DA42A190015A74B /* BunnyCloseEyes5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyCloseEyes5.png; sourceTree = "<group>"; };
+		D226AE921DA42A190015A74B /* BunnyEat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyEat1.png; sourceTree = "<group>"; };
+		D226AE931DA42A190015A74B /* BunnyEat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyEat2.png; sourceTree = "<group>"; };
+		D226AE941DA42A190015A74B /* BunnyEat3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyEat3.png; sourceTree = "<group>"; };
 		D279EB4B1D8C181C005E9A35 /* CuteBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuteBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D279EB4E1D8C181C005E9A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D279EB501D8C181C005E9A35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +48,16 @@
 		D279EB551D8C181C005E9A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D279EB581D8C181C005E9A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D279EB5A1D8C181C005E9A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D279EB611D8C189F005E9A35 /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
+		D279EB621D8C189F005E9A35 /* Basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Basketball.png; sourceTree = "<group>"; };
+		D279EB681D8C189F005E9A35 /* BunnyDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyDefault.png; sourceTree = "<group>"; };
+		D279EB6B1D8C189F005E9A35 /* BunnyRun1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyRun1.png; sourceTree = "<group>"; };
+		D279EB6C1D8C189F005E9A35 /* BunnyRun2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyRun2.png; sourceTree = "<group>"; };
+		D279EB6D1D8C189F005E9A35 /* BunnyText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BunnyText.png; sourceTree = "<group>"; };
+		D279EB6E1D8C189F005E9A35 /* Carrot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carrot1.png; sourceTree = "<group>"; };
+		D279EB6F1D8C189F005E9A35 /* Carrot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carrot2.png; sourceTree = "<group>"; };
+		D279EB701D8C189F005E9A35 /* Carrot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carrot3.png; sourceTree = "<group>"; };
+		D279EB711D8C189F005E9A35 /* Strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strawberry.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 		D279EB4D1D8C181C005E9A35 /* CuteBunny */ = {
 			isa = PBXGroup;
 			children = (
+				D279EB601D8C1872005E9A35 /* Resource */,
 				D279EB4E1D8C181C005E9A35 /* AppDelegate.swift */,
 				D279EB501D8C181C005E9A35 /* ViewController.swift */,
 				D279EB521D8C181C005E9A35 /* Main.storyboard */,
@@ -62,6 +99,31 @@
 				D279EB5A1D8C181C005E9A35 /* Info.plist */,
 			);
 			path = CuteBunny;
+			sourceTree = "<group>";
+		};
+		D279EB601D8C1872005E9A35 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D226AE8D1DA42A190015A74B /* BunnyCloseEyes1.png */,
+				D226AE8E1DA42A190015A74B /* BunnyCloseEyes2.png */,
+				D226AE8F1DA42A190015A74B /* BunnyCloseEyes3.png */,
+				D226AE901DA42A190015A74B /* BunnyCloseEyes4.png */,
+				D226AE911DA42A190015A74B /* BunnyCloseEyes5.png */,
+				D226AE921DA42A190015A74B /* BunnyEat1.png */,
+				D226AE931DA42A190015A74B /* BunnyEat2.png */,
+				D226AE941DA42A190015A74B /* BunnyEat3.png */,
+				D279EB611D8C189F005E9A35 /* Apple.png */,
+				D279EB621D8C189F005E9A35 /* Basketball.png */,
+				D279EB681D8C189F005E9A35 /* BunnyDefault.png */,
+				D279EB6B1D8C189F005E9A35 /* BunnyRun1.png */,
+				D279EB6C1D8C189F005E9A35 /* BunnyRun2.png */,
+				D279EB6D1D8C189F005E9A35 /* BunnyText.png */,
+				D279EB6E1D8C189F005E9A35 /* Carrot1.png */,
+				D279EB6F1D8C189F005E9A35 /* Carrot2.png */,
+				D279EB701D8C189F005E9A35 /* Carrot3.png */,
+				D279EB711D8C189F005E9A35 /* Strawberry.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +186,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D226AE9B1DA42A190015A74B /* BunnyEat2.png in Resources */,
+				D279EB791D8C189F005E9A35 /* BunnyDefault.png in Resources */,
+				D226AE971DA42A190015A74B /* BunnyCloseEyes3.png in Resources */,
+				D279EB7E1D8C189F005E9A35 /* BunnyText.png in Resources */,
+				D226AE991DA42A190015A74B /* BunnyCloseEyes5.png in Resources */,
 				D279EB591D8C181C005E9A35 /* LaunchScreen.storyboard in Resources */,
+				D226AE9C1DA42A190015A74B /* BunnyEat3.png in Resources */,
+				D226AE951DA42A190015A74B /* BunnyCloseEyes1.png in Resources */,
+				D279EB7F1D8C189F005E9A35 /* Carrot1.png in Resources */,
 				D279EB561D8C181C005E9A35 /* Assets.xcassets in Resources */,
+				D226AE961DA42A190015A74B /* BunnyCloseEyes2.png in Resources */,
+				D279EB7D1D8C189F005E9A35 /* BunnyRun2.png in Resources */,
+				D279EB721D8C189F005E9A35 /* Apple.png in Resources */,
+				D279EB811D8C189F005E9A35 /* Carrot3.png in Resources */,
+				D279EB801D8C189F005E9A35 /* Carrot2.png in Resources */,
+				D279EB7C1D8C189F005E9A35 /* BunnyRun1.png in Resources */,
 				D279EB541D8C181C005E9A35 /* Main.storyboard in Resources */,
+				D226AE9A1DA42A190015A74B /* BunnyEat1.png in Resources */,
+				D279EB821D8C189F005E9A35 /* Strawberry.png in Resources */,
+				D226AE981DA42A190015A74B /* BunnyCloseEyes4.png in Resources */,
+				D279EB731D8C189F005E9A35 /* Basketball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +382,7 @@
 				D279EB5F1D8C181C005E9A35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
