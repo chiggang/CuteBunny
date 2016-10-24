@@ -91,7 +91,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
 
 		// 토끼 애니메이션을 초기화함
 		self.queue.addOperation { () -> Void in
-			OperationQueue.main().addOperation({
+			OperationQueue.main.addOperation({
 				self.imgCharacter.animationImages = self.arrCharacterRunAni
 				self.imgCharacter.stopAnimating()
 			})
@@ -123,7 +123,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
 			
 			// 메인 스레드 큐 안에서 처리함
 			self.queue.addOperation { () -> Void in
-				OperationQueue.main().addOperation({
+				OperationQueue.main.addOperation({
 					self.imgCharacter.center = self.touchPos
 
 					// 토끼 애니메이션을 초기화함
@@ -194,7 +194,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
 		UIView.animate(
 			withDuration: 1.0
 			, delay: 0.0
-			, options: [UIViewAnimationOptions.curveEaseIn, UIViewAnimationOptions.curveEaseOut]
+			, options: [.curveEaseInOut]
 			, animations: {
 				self.imgCharacter.center = self.touchPos
 			}
@@ -240,7 +240,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
 			
 			// 메인 스레드 큐 안에서 처리함
 			queue.addOperation { () -> Void in
-				OperationQueue.main().addOperation({
+				OperationQueue.main.addOperation({
 					// 토끼 애니메이션을 초기화함
 					self.imgCharacter.animationImages = self.arrCharacterRunAni
 					self.imgCharacter.stopAnimating()
@@ -275,7 +275,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
 		UIView.animate(
 			withDuration: 1.0
 			, delay: 0.0
-			, options: [UIViewAnimationOptions.curveEaseIn, UIViewAnimationOptions.curveEaseOut]
+			, options: [.curveEaseInOut]
 			, animations: {
 				self.imgCharacter.center = self.touchPos
 			}
@@ -373,7 +373,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
 	
 	// 토끼의 표정 스레드를 처리함
 	func characterFaceThread() {
-		while Thread.current().isCancelled == false {
+		while Thread.current.isCancelled == false {
 			// 토끼에 아무러 입력을 하지 않은 상태일 때만 처리함
 			if self.cntTouchStack == 0 && self.chkJump == false && self.chkThreadFace == false {
 				// 2초마다 한번씩 랜덤으로 표정을 변화함
@@ -399,7 +399,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
 
 					// 메인 스레드 큐 안에서 처리함
 					self.queue.addOperation { () -> Void in
-						OperationQueue.main().addOperation({
+						OperationQueue.main.addOperation({
 							UIView.animate(
 								withDuration: 2.0
 								, animations: {
@@ -447,7 +447,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
 
 		// 메인 스레드 큐 안에서 처리함
 		self.queue.addOperation { () -> Void in
-			OperationQueue.main().addOperation({
+			OperationQueue.main.addOperation({
 				// 토끼 애니메이션을 초기화함
 				self.imgCharacter.stopAnimating()
 				self.imgCharacter.center = self.touchPos
