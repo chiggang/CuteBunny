@@ -6,6 +6,8 @@
 //  Copyright © 2016년 chiggang. All rights reserved.
 //
 
+// 새로 포크/클론 했습니다. 화이팅.
+
 import UIKit
 
 @UIApplicationMain
